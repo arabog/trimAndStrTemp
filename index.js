@@ -23,6 +23,8 @@ function fiveLine(s){
 fiveLine("  a")
 fiveLine("\txy \n")
 fiveLine("           Ok               ")
+fiveLines("           OkOK               ")
+
 
 // using string template
 function fiveLines(s){
@@ -44,3 +46,4 @@ function fiveLines(s){
 fiveLines("  a")
 fiveLines("\txy \n")
 fiveLines("           Ok               ")
+fiveLines("           OkOK               ")
