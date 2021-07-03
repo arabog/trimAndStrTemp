@@ -24,8 +24,10 @@ fiveLine("  a")
 fiveLine("\txy \n")
 fiveLine("           Ok               ")
 fiveLines("           OkOK               ")
+fiveLines("\n\n\n\nabc\t\t\t")
 
 
+console.log("===============================");
 // using string template
 function fiveLines(s){
           // trim d argument
@@ -45,5 +47,6 @@ function fiveLines(s){
 
 fiveLines("  a")
 fiveLines("\txy \n")
+fiveLines("\n\n\n\nabc\t\t\t")
 fiveLines("           Ok               ")
 fiveLines("           OkOK               ")
