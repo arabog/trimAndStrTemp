@@ -20,6 +20,7 @@ function fiveLine(s){
           }
 }
 
+
 fiveLine("  a")
 fiveLine("\txy \n")
 fiveLine("           Ok               ")
@@ -50,3 +51,27 @@ fiveLines("\txy \n")
 fiveLines("\n\n\n\nabc\t\t\t")
 fiveLines("           Ok               ")
 fiveLines("           OkOK               ")
+
+
+// codewar solution
+function fiveLine(s){
+          // trim d argument
+          s = s.trim();
+
+          let tmp = s;
+          let newS = [s]
+
+          for(let i = 1; i < 5; i++) {
+          // for each subsequent loop add extra s and console log
+                    newS.push(s = s + tmp)
+
+}
+
+          return newS.join('/n')
+
+}
+
+function fiveLine(s){
+          s = s.trim();
+          return `${s}\n${s}${s}\n${s}${s}${s}\n${s}${s}${s}${s}\n${s}${s}${s}${s}${s}`;
+}
